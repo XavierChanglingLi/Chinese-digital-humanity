@@ -7,9 +7,9 @@ A testing site for using Reactjs to build web app for Colby Digital Studies
 
   
 
-Last Updated: July 19, 2021
+Last Updated: Jan 19, 2022
 
-Created by Ruize Li @ Colby College East Asian Studies
+Created by Ruize Li, Changling Li @ Colby College East Asian Studies
 
   
 
