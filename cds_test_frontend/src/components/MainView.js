@@ -18,6 +18,7 @@
  import Min_zu from "./pages/min_zu";
  import Xin_hun from "./pages/xin_hun";
  import Shang_hai_man_hua from "./pages/shang_hai_man_hua";
+ import Ren_min_hua_bao from "./pages/ren_min_hua_bao";
  import { TeachingResearch } from "./pages/TeachingResearch";
  import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
  import './pages/004.pdf'
@@ -41,6 +42,7 @@ class MainView extends React.Component {
                     <Route exact path = '/about'>               <About/>                </Route>
                     <Route exact path = '/admin'>               <Admin/>                </Route>
                     <Route exact path = '/shang_hai_man_hua'>    <Shang_hai_man_hua/>     </Route>
+                    <Route exact path = '/ren_min_hua_bao'>    <Ren_min_hua_bao/>     </Route>
                     <Route exact path = '/shmh_1928_000'>           <Shmh_1928_000/>            </Route>
                     <Route exact path = '/shmh_1928_001'>           <Shmh_1928_001/>            </Route>
                     <Route exact path = '/shmh_1928_002'>           <Shmh_1928_002/>            </Route>
