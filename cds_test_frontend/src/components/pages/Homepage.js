@@ -66,6 +66,35 @@ const Homepage = () => {
             {/*<a href='https://www.google.com' target='_blank' rel='noopener noreferrer'>EXAMPLE</a>*/}
             <div className="subrow">
                 <div className="column">
+                    <h4>人民画报 (China Pictorial) </h4>
+                    <h4>1950-1966</h4>
+                    <a href='ren_min_hua_bao'>
+                        <img src='https://raw.githubusercontent.com/XavierChanglingLi/colby_chinese_digital/master/ren_min_hua_bao/rmhb_07_1950/1.jpg' width={250} height={"auto"}/>
+                    </a>
+                </div>
+                <div className="column">
+                    <h4>民族画报 (Nationality Pictorial)</h4>
+                    <h4>1955-1966</h4>
+                    <a href='min_zu'>
+                        <img src= 'https://raw.githubusercontent.com/XavierChanglingLi/colby_chinese_digital/master/min_zu_hua_bao/mzhb_02_1955/1.jpg' width={250} height={"auto"}/>
+                    </a>
+                </div>
+                <div className="column">
+                    <h4>漫画月刊 (Manhua Cartoons)</h4>
+                    <h4>1950-1960</h4>
+                    <a href='xin_hun'>
+                        <img src='https://raw.githubusercontent.com/XavierChanglingLi/colby_chinese_digital/master/man_hua_yue_kan/mhyk_03_1950/1.jpg' width={250} height={"auto"}/>
+                    </a>
+                </div>
+            </div>
+            <div className='subrow'>
+                <div className="column">
+                    <h4>新婚姻法图解(1951 华东版)</h4>
+                    <a href='xin_hun'>
+                        <img src='https://raw.githubusercontent.com/XavierChanglingLi/colby_chinese_digital/master/xin_hun_yin_fa/book_view/2.jpg' width={250} height={"auto"}/>
+                    </a>
+                </div>
+                <div className="column">
                     <h4>上海漫画 (1928-1930)</h4>
                     <a href='shang_hai_man_hua'>
                         <img src='https://raw.githubusercontent.com/XavierChanglingLi/colby_chinese_digital/master/shang_hai_man_hua/shmh_049_1929/1.jpg' width={250} height={"auto"}/>
@@ -77,38 +106,12 @@ const Homepage = () => {
                         <img src= 'https://raw.githubusercontent.com/XavierChanglingLi/colby_chinese_digital/master/shi_dai_man_hua/sdmh_1934_01/1.jpg' width={250} height={"auto"}/>
                     </a>
                 </div>
-                <div className="column">
-                    <h4>人民画报 (1950-)</h4>
-                    <a href='xin_hun'>
-                        <img src='https://raw.githubusercontent.com/XavierChanglingLi/colby_chinese_digital/master/ren_min_hua_bao/rmhb_07_1950/1.jpg' width={250} height={"auto"}/>
-                    </a>
-                </div>
             </div>
             <div className="subrow">
-                <div className="column">
-                    <h4>漫画月刊(1950-1960)</h4>
-                    <a href='xin_hun'>
-                        <img src='https://raw.githubusercontent.com/XavierChanglingLi/colby_chinese_digital/master/man_hua_yue_kan/mhyk_03_1950/1.jpg' width={250} height={"auto"}/>
-                    </a>
-                </div>
                 <div className="column">
                     <h4>新婚姻法图解(1951 华南版)</h4>
                     <a href='xin_hun'>
                         <img src='https://raw.githubusercontent.com/XavierChanglingLi/colby_chinese_digital/master/xin_hun_yin_fa_hua_nan/book_view/1.jpg' width={250} height={"auto"}/>
-                    </a>
-                </div>
-                <div className="column">
-                    <h4>民族画报 (1955-)</h4>
-                    <a href='min_zu'>
-                        <img src= 'https://raw.githubusercontent.com/XavierChanglingLi/colby_chinese_digital/master/min_zu_hua_bao/book_view/1.jpg' width={250} height={"auto"}/>
-                    </a>
-                </div>
-            </div>
-            <div className='subrow'>
-                <div className="column">
-                    <h4>新婚姻法图解(1951 华东版)</h4>
-                    <a href='xin_hun'>
-                        <img src='https://raw.githubusercontent.com/XavierChanglingLi/colby_chinese_digital/master/xin_hun_yin_fa/book_view/2.jpg' width={250} height={"auto"}/>
                     </a>
                 </div>
             </div>
